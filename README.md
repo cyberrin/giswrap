@@ -9,7 +9,7 @@ directly — no server in between, no account, no API key.
 Available in English and Russian, following your system language by default.
 
 <!-- Drop now.png into docs/screenshots/ and this renders. -->
-![GisWrap screenshot](docs/screenshots/now.png)
+<img src="docs/screenshots/now.png" alt="GisWrap screenshot" width="40%"/>
 
 ## Key Features
 
