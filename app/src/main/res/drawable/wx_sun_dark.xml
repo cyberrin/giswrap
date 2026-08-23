@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  GENERATED — do not edit. Source: app/assets/darkMode/sun.svg
+  Regenerate with: python3 tools/svg_to_vector.py
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:pathData="M54 71.0455V79M54 29V36.9545M36.9545 54H29M79 54L71.0455 54M41.947 66.053L36.3223 71.6777M71.6777 36.3223L66.053 41.947M41.947 41.947L36.3223 36.3223M71.6777 71.6777L66.053 66.053M65.5672 54C65.5672 60.3884 60.3884 65.5672 54 65.5672C47.6116 65.5672 42.4328 60.3884 42.4328 54C42.4328 47.6116 47.6116 42.4328 54 42.4328C60.3884 42.4328 65.5672 47.6116 65.5672 54Z"
+        android:strokeColor="#F9E2AF"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeMiterLimit="3.74198" />
+</vector>

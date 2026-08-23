@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  English is the default so that any non-Russian device falls back to it. The
+  Russian translation lives in values-ru/ and is selected by the system for a
+  Russian locale, or by the in-app language setting.
+
+  Condition text ("Overcast, rain") is not here: it arrives from Gismeteo in
+  Russian and is regenerated in English from the decoded Sky, in Conditions.kt.
+-->
+<resources>
+    <!-- The product name, not a translated word: it stays as-is everywhere. -->
+    <string name="app_name" translatable="false">GisWrap</string>
+
+    <!-- Search -->
+    <string name="search_hint">City name…</string>
+    <string name="search_prompt">Search for a city to begin.</string>
+    <string name="search_searching">Searching…</string>
+    <string name="search_keep_typing">Keep typing…</string>
+    <string name="search_nothing_found">Nothing found for “%1$s”</string>
+    <string name="search_more">%1$d more — press search to see them all</string>
+    <string name="search_results_count">%1$d results for “%2$s”</string>
+
+    <!-- Forecast -->
+    <string name="forecast_empty">This forecast has no days.</string>
+    <string name="forecast_load_failed">Could not load: %1$s</string>
+    <string name="today">today</string>
+
+    <!-- Source credit, at the foot of every forecast page -->
+    <string name="source_credit">Data from</string>
+    <string name="source_credit_name">Gismeteo</string>
+    <string name="source_credit_open">Open on Gismeteo</string>
+
+    <!-- Current conditions -->
+    <string name="field_feels_like">Feels like</string>
+    <string name="field_humidity">Humidity</string>
+    <string name="field_pressure">Pressure</string>
+    <string name="field_wind">Wind</string>
+    <string name="detail_wind">wind %1$s</string>
+    <string name="detail_humidity">humidity %1$s</string>
+
+    <!-- Units. Quoted so the leading space survives. -->
+    <string name="unit_speed">" m/s"</string>
+    <string name="unit_pressure">" mmHg"</string>
+    <string name="unit_percent">%</string>
+
+    <!-- Settings -->
+    <string name="settings_reset">Reset to default</string>
+    <string name="settings_appearance">Style</string>
+    <string name="settings_text">Text</string>
+    <string name="settings_font">Font</string>
+    <string name="settings_font_hint">Applies in every theme and in the widget</string>
+    <string name="settings_font_system">System</string>
+    <string name="settings_font_serif">Serif</string>
+    <string name="settings_font_doodle" translatable="false">Rubik Doodle Shadow</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_language_hint">Applies to the app and the widget</string>
+    <string name="settings_language_system">Follow system</string>
+    <string name="settings_language_russian" translatable="false">Русский</string>
+    <string name="settings_language_english" translatable="false">English</string>
+    <string name="settings_text_all">Text settings</string>
+    <string name="settings_text_all_hint">Applied to every label at once</string>
+    <string name="settings_text_size">Size</string>
+    <string name="settings_text_weight">Weight</string>
+    <string name="settings_text_line">Line spacing</string>
+    <string name="settings_text_spacing">Letter spacing</string>
+    <string name="settings_cute">Pick-me theme</string>
+    <string name="settings_cute_hint">Cute icons, uneven panels and a starry sky behind</string>
+    <string name="settings_cute_wobble">Edge waviness</string>
+    <string name="settings_cute_frequency">Wave frequency</string>
+    <string name="settings_cute_morph">How hand-drawn the shape is</string>
+    <string name="settings_cute_stars">Star size</string>
+    <string name="settings_cute_primary">How much primary colour</string>
+    <string name="settings_cute_secondary">How much secondary</string>
+    <string name="settings_cute_tertiary">How much tertiary</string>
+    <string name="settings_cute_accent">How much accent</string>
+    <string name="settings_background">Your own background</string>
+    <string name="settings_background_hint">A picture instead of the starry sky</string>
+    <string name="settings_background_pick">Choose</string>
+    <string name="settings_background_clear">Remove</string>
+    <string name="settings_dynamic_colour">Dynamic colour</string>
+    <string name="settings_dynamic_colour_on">Take the accent colour from the wallpaper</string>
+    <string name="settings_dynamic_colour_unsupported">Requires Android 12 or newer</string>
+    <string name="settings_accent">Accent colour</string>
+    <string name="settings_accent_hint">Pick your accent colour</string>
+    <string name="settings_accent_hint_dynamic">Turn off dynamic colour to set your own</string>
+    <string name="settings_accent_reset">Reset</string>
+    <string name="settings_accent_swatch">Preset colour</string>
+    <string name="settings_accent_hue">Hue</string>
+    <string name="settings_accent_chroma">Saturation</string>
+    <string name="settings_widget">Widget</string>
+    <string name="settings_widget_border">Widget outline</string>
+    <string name="settings_widget_border_hint">A thin line around the panel</string>
+    <string name="settings_widget_hero">Shape like the main block</string>
+    <string name="settings_widget_hero_hint">The widget takes the weather block\'s shape and stays square</string>
+    <string name="settings_widget_opacity">Background opacity</string>
+    <string name="settings_widget_opacity_hint">How solid the widget panel sits on the home screen</string>
+    <string name="settings_widget_opacity_value">%1$d%%</string>
+    <string name="settings_saved_cities">Cities</string>
+    <string name="settings_no_cities">Nothing saved yet. Find a city and it will appear here.</string>
+    <string name="settings_opens_at_launch">Opens at launch</string>
+    <string name="settings_make_primary">Make primary</string>
+    <string name="settings_remove">Remove</string>
+
+    <!-- Exit -->
+    <string name="exit_hint">Press back once more to close the app</string>
+
+    <!-- Forecast ranges -->
+    <string name="tab_now_short">Now</string>
+    <string name="tab_3_days_short">3 days</string>
+    <string name="tab_2_weeks_short">2 weeks</string>
+    <string name="tab_month_short">Month</string>
+
+    <!-- Widget -->
+    <string name="widget_description">Weather for the primary city</string>
+    <string name="widget_icon_description">Weather conditions</string>
+    <string name="widget_no_city">Choose a city</string>
+    <string name="widget_placeholder_temp">—</string>
+
+    <!-- Errors. Built from a WeatherError type, never from prose in domain/. -->
+    <string name="error_unreachable">Could not reach Gismeteo</string>
+    <string name="error_upstream_status">Gismeteo answered with status %1$d</string>
+    <string name="error_city_not_found">City not found</string>
+    <string name="error_no_weather_here">No weather data for this place</string>
+    <string name="error_no_forecast_for_range">No forecast for this range here</string>
+    <string name="error_bad_payload">Could not read the forecast</string>
+    <string name="error_no_cities_near">No Gismeteo cities near “%1$s”</string>
+    <string name="error_location_timeout">Could not get your location in time</string>
+    <string name="error_location_unavailable">Location is unavailable</string>
+    <string name="error_location_denied">Location permission denied</string>
+    <string name="error_location_off">Location is turned off</string>
+    <string name="error_location_no_provider">This device has no location service</string>
+    <string name="error_location_no_name">Could not work out the place name</string>
+</resources>

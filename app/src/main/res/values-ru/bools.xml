@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Upstream is already Russian, and written by people. Use it verbatim. -->
+    <bool name="condition_text_from_upstream">true</bool>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  GENERATED — do not edit. Source: app/assets/darkMode/moon.svg
+  Regenerate with: python3 tools/svg_to_vector.py
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:pathData="M49.2084 29.9096C45.2939 33.0008 42.306 37.3343 40.9158 42.5226C37.4852 55.3258 45.0832 68.4859 57.8864 71.9165C63.0747 73.3067 68.3216 72.8858 72.9558 71.0414C66.8679 77.8518 57.2559 81.065 47.8296 78.5392C34.493 74.9657 26.5784 61.2573 30.1519 47.9206C32.6777 38.4944 40.2664 31.7767 49.2084 29.9096Z"
+        android:fillColor="#F5E0DC"
+        android:fillType="evenOdd" />
+</vector>

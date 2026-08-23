@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  GENERATED — do not edit. Source: app/assets/lightMode/moon-with-sun.svg
+  Regenerate with: python3 tools/svg_to_vector.py
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:pathData="M66.2817 27.2691C63.785 29.2408 61.8792 32.0048 60.9925 35.314C58.8044 43.4802 63.6506 51.874 71.8168 54.0621C75.126 54.9488 78.4725 54.6804 81.4284 53.504C77.5454 57.8478 71.4146 59.8973 65.4023 58.2863C56.8959 56.007 51.8478 47.2634 54.1271 38.757C55.738 32.7447 60.5783 28.46 66.2817 27.2691Z"
+        android:fillColor="#DF8E1D"
+        android:fillType="evenOdd" />
+    <path
+        android:pathData="M37.7719 71C32.9273 71 29 67.0825 29 62.25C29 58.8808 30.909 55.9564 33.7068 54.4943C32.3977 52.594 31.6316 50.2925 31.6316 47.8125C31.6316 41.2886 36.9335 36 43.4737 36C49.2466 36 54.0548 40.1206 55.1034 45.574C59.7018 43.4375 67.5873 44.3125 67.5873 53.9035C74.614 51.75 79 57.4175 79 62.25C79 67.0825 75.0727 71 70.2281 71H37.7719Z"
+        android:fillColor="#8C8FA1" />
+</vector>

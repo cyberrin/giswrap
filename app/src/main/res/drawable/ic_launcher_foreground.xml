@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  The cloud from the weather set, as an adaptive-icon foreground.
+
+  Adaptive icons are 108x108dp with only the middle 72x72 guaranteed visible —
+  launchers mask the rest to circles, squircles or teardrops. The cloud spans
+  about 46dp of that, roughly 64%, which is the usual weight for a single
+  foreground shape; filling the safe zone edge to edge makes an icon look
+  cramped next to its neighbours.
+
+  Each lump is a separate sub-path in one <path>. With the default non-zero fill
+  rule, sub-paths wound the same direction fill as their *union*, so overlapping
+  circles and a stadium become one cloud silhouette with no boolean geometry to
+  compute by hand.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- The darker cloud behind, for the same depth the in-app glyph has. -->
+    <path
+        android:fillColor="#45475A"
+        android:pathData="M57.5,48 a9.1,9.1 0 1,1 18.2,0 a9.1,9.1 0 1,1 -18.2,0 Z
+                          M63.1,56.4 a7,7 0 1,1 14,0 a7,7 0 1,1 -14,0 Z" />
+
+    <path
+        android:fillColor="#9399B2"
+        android:pathData="M34.4,50.8 a11.9,11.9 0 1,1 23.8,0 a11.9,11.9 0 1,1 -23.8,0 Z
+                          M52.95,55 a8.75,8.75 0 1,1 17.5,0 a8.75,8.75 0 1,1 -17.5,0 Z
+                          M37.9,55 L65.9,55 a7,7 0 0,1 0,14 L37.9,69 a7,7 0 0,1 0,-14 Z" />
+</vector>

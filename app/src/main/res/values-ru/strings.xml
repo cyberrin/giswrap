@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Search -->
+    <string name="search_hint">Название города…</string>
+    <string name="search_prompt">Найдите город, чтобы начать.</string>
+    <string name="search_searching">Поиск…</string>
+    <string name="search_keep_typing">Продолжайте вводить…</string>
+    <string name="search_nothing_found">Ничего не найдено по запросу «%1$s»</string>
+    <string name="search_more">Ещё %1$d — нажмите поиск, чтобы увидеть все</string>
+    <string name="search_results_count">Результатов по запросу «%2$s»: %1$d</string>
+
+    <!-- Forecast -->
+    <string name="forecast_empty">В этом прогнозе нет дней.</string>
+    <string name="forecast_load_failed">Не удалось загрузить: %1$s</string>
+    <string name="today">сегодня</string>
+
+    <!-- Source credit, at the foot of every forecast page -->
+    <string name="source_credit">Данные взяты с</string>
+    <!-- The brand, transliterated as the service itself writes it in Russian. -->
+    <string name="source_credit_name">Гисметео</string>
+    <string name="source_credit_open">Открыть на Гисметео</string>
+
+    <!-- Current conditions -->
+    <string name="field_feels_like">Ощущается</string>
+    <string name="field_humidity">Влажность</string>
+    <string name="field_pressure">Давление</string>
+    <string name="field_wind">Ветер</string>
+    <string name="detail_wind">ветер %1$s</string>
+    <string name="detail_humidity">влажность %1$s</string>
+
+    <!-- Units -->
+    <string name="unit_speed">" м/с"</string>
+    <string name="unit_pressure">" мм рт. ст."</string>
+    <string name="unit_percent">%</string>
+
+    <!-- Settings -->
+    <string name="settings_reset">Сбросить к значению по умолчанию</string>
+    <string name="settings_appearance">Стиль</string>
+    <string name="settings_text">Текст</string>
+    <string name="settings_font">Шрифт</string>
+    <string name="settings_font_hint">Применяется во всех темах и в виджете</string>
+    <string name="settings_font_system">Системный</string>
+    <string name="settings_font_serif">С засечками</string>
+    <string name="settings_language">Язык</string>
+    <string name="settings_language_hint">Применяется к приложению и виджету</string>
+    <string name="settings_language_system">Как в системе</string>
+    <string name="settings_text_all">Настройки текста</string>
+    <string name="settings_text_all_hint">Применяются ко всем надписям сразу</string>
+    <string name="settings_text_size">Размер</string>
+    <string name="settings_text_weight">Насыщенность начертания</string>
+    <string name="settings_text_line">Межстрочный интервал</string>
+    <string name="settings_text_spacing">Межбуквенный интервал</string>
+    <!-- The name the user asked for, kept verbatim; not a word to translate. -->
+    <string name="settings_cute">Пикми тема</string>
+    <string name="settings_cute_hint">Милые иконки, неровные панели и звёздное небо на фоне</string>
+    <string name="settings_cute_wobble">Неровность краёв</string>
+    <string name="settings_cute_frequency">Частота волн</string>
+    <string name="settings_cute_morph">Насколько рисованная форма</string>
+    <string name="settings_cute_stars">Размер звёзд</string>
+    <string name="settings_cute_primary">Сколько основного цвета</string>
+    <string name="settings_cute_secondary">Сколько дополнительного</string>
+    <string name="settings_cute_tertiary">Сколько третьего</string>
+    <string name="settings_cute_accent">Сколько акцента</string>
+    <string name="settings_background">Свой фон</string>
+    <string name="settings_background_hint">Картинка вместо звёздного неба</string>
+    <string name="settings_background_pick">Выбрать</string>
+    <string name="settings_background_clear">Убрать</string>
+    <string name="settings_dynamic_colour">Динамические цвета</string>
+    <string name="settings_dynamic_colour_on">Брать акцентный цвет из обоев</string>
+    <string name="settings_dynamic_colour_unsupported">Требуется Android 12 или новее</string>
+    <string name="settings_accent">Акцентный цвет</string>
+    <string name="settings_accent_hint">Выберите свой акцентный цвет</string>
+    <string name="settings_accent_hint_dynamic">Выключите динамические цвета чтобы задать свой цвет</string>
+    <string name="settings_accent_reset">Сбросить</string>
+    <string name="settings_accent_swatch">Готовый цвет</string>
+    <string name="settings_accent_hue">Оттенок</string>
+    <string name="settings_accent_chroma">Насыщенность</string>
+    <string name="settings_widget">Виджет</string>
+    <string name="settings_widget_border">Контур виджета</string>
+    <string name="settings_widget_border_hint">Тонкая линия по краю подложки</string>
+    <string name="settings_widget_hero">Форма как у главного блока</string>
+    <string name="settings_widget_hero_hint">Виджет принимает форму блока погоды и остаётся квадратным</string>
+    <string name="settings_widget_opacity">Непрозрачность фона</string>
+    <string name="settings_widget_opacity_hint">Насколько плотной будет подложка виджета на рабочем столе</string>
+    <string name="settings_widget_opacity_value">%1$d%%</string>
+    <string name="settings_saved_cities">Города</string>
+    <string name="settings_no_cities">Пока ничего не сохранено. Найдите город — он появится здесь.</string>
+    <string name="settings_opens_at_launch">Открывается при запуске</string>
+    <string name="settings_make_primary">Сделать основным</string>
+    <string name="settings_remove">Удалить</string>
+
+    <!-- Exit -->
+    <string name="exit_hint">Ещё одно нажатие назад закроет приложение</string>
+
+    <!-- Forecast ranges -->
+    <string name="tab_now_short">Сейчас</string>
+    <string name="tab_3_days_short">3 дня</string>
+    <string name="tab_2_weeks_short">2 недели</string>
+    <string name="tab_month_short">Месяц</string>
+
+    <!-- Widget -->
+    <string name="widget_description">Погода в основном городе</string>
+    <string name="widget_icon_description">Погодные условия</string>
+    <string name="widget_no_city">Выберите город</string>
+    <string name="widget_placeholder_temp">—</string>
+
+    <!-- Errors. Built from a WeatherError type, never from prose in domain/. -->
+    <string name="error_unreachable">Не удалось связаться с Гисметео</string>
+    <string name="error_upstream_status">Гисметео ответил со статусом %1$d</string>
+    <string name="error_city_not_found">Город не найден</string>
+    <string name="error_no_weather_here">Для этого места нет данных о погоде</string>
+    <string name="error_no_forecast_for_range">Для этого места нет прогноза на этот период</string>
+    <string name="error_bad_payload">Не удалось разобрать прогноз</string>
+    <string name="error_no_cities_near">Рядом с «%1$s» нет городов Гисметео</string>
+    <string name="error_location_timeout">Не удалось определить местоположение вовремя</string>
+    <string name="error_location_unavailable">Геолокация недоступна</string>
+    <string name="error_location_denied">Нет разрешения на определение местоположения</string>
+    <string name="error_location_off">Геолокация выключена</string>
+    <string name="error_location_no_provider">На устройстве нет службы геолокации</string>
+    <string name="error_location_no_name">Не удалось определить название места</string>
+</resources>

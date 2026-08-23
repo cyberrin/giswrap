@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Widget colours, as the *launcher's picker* draws them before the widget has
+  been placed and the provider has had a chance to push real ones.
+
+  Everything here is overwritten at runtime: `widgetColors()` grows the panel,
+  text and muted colours from the same accent the app wears and sends them over
+  RemoteViews, because the launcher resolves a widget's resources against its
+  own configuration and so could never follow the in-app theme toggle.
+
+  The values are tone 94/10/30 of the neutral ramp grown from the app's default
+  accent, which is what a device with no wallpaper palette actually shows.
+
+  The panel ladder carries opacity only — its RGB is replaced by a colour filter
+  at draw time, so only the alpha of these matters once the widget is live.
+-->
+<resources>
+    <!--
+      What the window is painted before Compose draws, and what shows through
+      any frame where the composition is not fully opaque — which a crossfade
+      between two screens is, every time. It was @android:color/white, so
+      opening settings flashed white on the way in and again on the way out.
+
+      Tone 98 of the neutral ramp grown from the default accent: the same
+      colour the app's own surface starts at, so the handover from window to
+      composition is invisible.
+    -->
+    <color name="window_background">#F9F9FC</color>
+
+    <color name="widget_text">#171C22</color>
+    <color name="widget_text_muted">#42474E</color>
+    <color name="widget_panel_0">#00E9EEF6</color>
+    <color name="widget_panel_10">#1AE9EEF6</color>
+    <color name="widget_panel_20">#33E9EEF6</color>
+    <color name="widget_panel_30">#4CE9EEF6</color>
+    <color name="widget_panel_40">#66E9EEF6</color>
+    <color name="widget_panel_50">#80E9EEF6</color>
+    <color name="widget_panel_60">#99E9EEF6</color>
+    <color name="widget_panel_70">#B2E9EEF6</color>
+    <color name="widget_panel_80">#CCE9EEF6</color>
+    <color name="widget_panel_90">#E6E9EEF6</color>
+    <color name="widget_panel_100">#FFE9EEF6</color>
+</resources>

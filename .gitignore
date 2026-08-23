@@ -1,0 +1,28 @@
+*.iml
+.gradle/
+.idea/
+.kotlin/
+build/
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Release signing. The key IS the app's identity to Play Protect — losing it
+# means every future build looks like a different app.
+*.jks
+*.keystore
+*.pem
+*.p12
+keystore.properties
+
+# Not used today, but the two classic Android leaks.
+.env
+.env.*
+google-services.json
+
+__pycache__/
+
+# Built APKs. The signed release is an artifact of a build, not a source of one.
+*.apk
+*.aab

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  The themed-icon layer: one flat silhouette, no second cloud and no colour of
+  its own. The launcher replaces the fill with a wallpaper-derived tint when the
+  user turns on "Themed icons", so any colour here is discarded — what matters
+  is that the shape reads at a glance as a single mass.
+
+  Same geometry as the foreground's front cloud, so the outline does not shift
+  when themed icons are switched on.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M34.4,50.8 a11.9,11.9 0 1,1 23.8,0 a11.9,11.9 0 1,1 -23.8,0 Z
+                          M52.95,55 a8.75,8.75 0 1,1 17.5,0 a8.75,8.75 0 1,1 -17.5,0 Z
+                          M37.9,55 L65.9,55 a7,7 0 0,1 0,14 L37.9,69 a7,7 0 0,1 0,-14 Z" />
+</vector>

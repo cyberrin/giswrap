@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+      Compose draws everything; this only needs to exist and stay out of the
+      way. No AppCompat dependency, so the platform Material theme is fine, and
+      it stays `Light` because `Theme.DeviceDefault.DayNight` arrived in API 29
+      and this app runs from 26.
+
+      What matters here is windowBackground. The window is what shows through
+      any frame the composition does not fully cover, and a crossfade between
+      two screens is exactly that — so `@android:color/white` meant a white
+      flash on every navigation, in dark mode too. The colour is `-night`
+      qualified instead, which needs no theme support at all.
+
+      That qualifier follows the *system* setting rather than the app's own
+      toggle, which it has no way to know about. It only decides the frame
+      before Compose draws; from there the Surface under the graph covers it.
+    -->
+    <style name="Theme.GisWrap" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/window_background</item>
+    </style>
+</resources>

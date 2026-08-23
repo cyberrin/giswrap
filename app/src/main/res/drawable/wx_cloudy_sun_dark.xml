@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  GENERATED — do not edit. Source: app/assets/darkMode/cloudy-sun.svg
+  Regenerate with: python3 tools/svg_to_vector.py
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:pathData="M58 61.6364V68M58 28V34.3636M44.3636 48L38 48M78 48L71.6364 48M48.3576 57.6424L43.8579 62.1421M72.1421 33.8579L67.6424 38.3576M48.3576 38.3576L43.8579 33.8579M72.1421 62.1421L67.6424 57.6424M67.0909 48C67.0909 53.0208 63.0208 57.0909 58 57.0909C52.9792 57.0909 48.9091 53.0208 48.9091 48C48.9091 42.9792 52.9792 38.9091 58 38.9091C63.0208 38.9091 67.0909 42.9792 67.0909 48Z"
+        android:strokeColor="#F9E2AF"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeMiterLimit="3.74198" />
+    <path
+        android:pathData="M37.7719 71C32.9273 71 29 67.0825 29 62.25C29 58.8808 30.909 55.9564 33.7068 54.4943C32.3977 52.594 31.6316 50.2925 31.6316 47.8125C31.6316 41.2886 36.9335 36 43.4737 36C49.2466 36 54.0548 40.1206 55.1034 45.574C59.7018 43.4375 67.5873 44.3125 67.5873 53.9035C74.614 51.75 79 57.4175 79 62.25C79 67.0825 75.0727 71 70.2281 71H37.7719Z"
+        android:fillColor="#7F849C" />
+</vector>

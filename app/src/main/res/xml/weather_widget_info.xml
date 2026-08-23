@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  updatePeriodMillis is deliberately absent. The refresh is WorkManager's now
+  (see WidgetRefreshWorker): the framework's own period has a hard 30-minute
+  floor, no network constraint and no retry, so a failed fetch was simply a
+  lost update.
+
+  initialLayout is Glance's placeholder, shown for the instant between the
+  widget being dropped and the first composition arriving. It is the one XML
+  layout the framework still insists on — a provider without it is rejected —
+  and Glance ships it so the app does not have to write one.
+
+  Sizes follow the platform's own cell formula, 70n - 30 dp for n cells. That
+  is what the launcher's grid is measured against, and it is the only language
+  these attributes speak: there is no way to say "five cells" to a launcher
+  whose cell width it alone decides. On a grid with wider cells than the
+  formula assumes, the cap lands a little short of five; on a denser one, a
+  little past. The number is a bound in dp, not a promise in cells.
+
+  min* and minResize* are different questions: the first is the size the widget
+  is *placed* at, the second how far the user may then drag it in. Keeping
+  minHeight at two cells and minResizeHeight at one gives a 2x2 by default that
+  can still be squeezed to the 2x1 form, and maxResize* stops it past 5x3.
+-->
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/widget_description"
+    android:initialLayout="@layout/glance_default_loading_layout"
+    android:minWidth="110dp"
+    android:minHeight="110dp"
+    android:minResizeWidth="110dp"
+    android:minResizeHeight="40dp"
+    android:maxResizeWidth="320dp"
+    android:maxResizeHeight="180dp"
+    android:resizeMode="horizontal|vertical"
+    android:targetCellWidth="2"
+    android:targetCellHeight="2"
+    android:widgetCategory="home_screen" />

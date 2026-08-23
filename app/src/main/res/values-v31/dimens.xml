@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+      From Android 12 the launcher clips widgets to its own corner radius. Using
+      the system value here means our panel is rounded to exactly the shape it
+      is about to be clipped to, instead of a 20dp curve being shaved to 16.
+    -->
+    <dimen name="widget_corner">@android:dimen/system_app_widget_background_radius</dimen>
+</resources>

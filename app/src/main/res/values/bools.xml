@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Gismeteo writes its condition text in Russian. Any locale without its own
+         translation gets English generated from the decoded Sky instead. -->
+    <bool name="condition_text_from_upstream">false</bool>
+</resources>

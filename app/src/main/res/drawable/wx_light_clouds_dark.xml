@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  GENERATED — do not edit. Source: app/assets/darkMode/light-clouds.svg
+  Regenerate with: python3 tools/svg_to_vector.py
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:pathData="M37.7719 71C32.9273 71 29 67.0825 29 62.25C29 58.8808 30.909 55.9564 33.7068 54.4943C32.3977 52.594 31.6316 50.2925 31.6316 47.8125C31.6316 41.2886 36.9335 36 43.4737 36C49.2466 36 54.0548 40.1206 55.1034 45.574C59.7018 43.4375 67.5873 44.3125 67.5873 53.9035C74.614 51.75 79 57.4175 79 62.25C79 67.0825 75.0727 71 70.2281 71H37.7719Z"
+        android:fillColor="#7F849C" />
+</vector>

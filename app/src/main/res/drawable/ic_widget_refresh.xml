@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  The widget's refresh mark.
+
+  Untinted here: the provider pushes a colour filter so the glyph follows the
+  same palette as the text beside it, which a `values-night/` tint could not do
+  — the launcher resolves a widget's resources against its own configuration.
+
+  Drawn as an arc with a solid arrowhead rather than the two-arrow Material
+  glyph: at 20dp the second arrow closes into a blob, and one arrow says the
+  same thing.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24"
+    android:tint="#FFFFFF">
+
+    <!-- Three quarters of a ring, open at the top right. -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M12,4.5 A7.5,7.5 0 1,0 19.5,12 h-2.2 A5.3,5.3 0 1,1 12,6.7 Z" />
+
+    <!-- The head, sitting in the gap the ring leaves. -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M11.2,1.6 L16.4,4.6 L11.2,7.6 Z" />
+</vector>

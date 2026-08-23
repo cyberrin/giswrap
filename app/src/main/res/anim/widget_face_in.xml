@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  The incoming face of the widget's flipper.
+
+  Declared in XML rather than set from code on purpose: ViewFlipper's
+  setInAnimation is not a @RemotableViewMethod, so a provider cannot reach it.
+  What the provider *can* do is setDisplayedChild, and the animation the
+  flipper was inflated with is what plays. This file is therefore the only
+  place the timing can live.
+-->
+<alpha xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="320"
+    android:fromAlpha="0.0"
+    android:interpolator="@android:interpolator/fast_out_slow_in"
+    android:toAlpha="1.0" />

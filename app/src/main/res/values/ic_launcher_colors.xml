@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tone 12 of the neutral ramp grown from the app's default accent, so
+         the icon matches a dark surface in-app on a device with no wallpaper
+         palette. Used only when themed icons are off; with them on, the
+         launcher supplies its own background. -->
+    <color name="ic_launcher_background">#1B2026</color>
+</resources>

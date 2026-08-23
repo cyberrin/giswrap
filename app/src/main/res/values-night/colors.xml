@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The dark half of the picker preview; see values/colors.xml. -->
+<resources>
+    <!-- Tone 6 of the same ramp; see values/colors.xml. -->
+    <color name="window_background">#101418</color>
+
+    <color name="widget_text">#DEE3EB</color>
+    <color name="widget_text_muted">#C2C7CE</color>
+    <color name="widget_panel_0">#001B2026</color>
+    <color name="widget_panel_10">#1A1B2026</color>
+    <color name="widget_panel_20">#331B2026</color>
+    <color name="widget_panel_30">#4C1B2026</color>
+    <color name="widget_panel_40">#661B2026</color>
+    <color name="widget_panel_50">#801B2026</color>
+    <color name="widget_panel_60">#991B2026</color>
+    <color name="widget_panel_70">#B21B2026</color>
+    <color name="widget_panel_80">#CC1B2026</color>
+    <color name="widget_panel_90">#E61B2026</color>
+    <color name="widget_panel_100">#FF1B2026</color>
+</resources>
