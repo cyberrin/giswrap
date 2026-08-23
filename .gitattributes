@@ -1,0 +1,10 @@
+# Captured gismeteo.ru pages, kept so SourcesTest can parse real bytes offline.
+# Not this project's code: 1.2MB of upstream markup otherwise reports as 77% HTML.
+app/src/test/resources/** linguist-vendored
+
+# Fonts shipped with the app, not authored here.
+app/src/main/res/font/** linguist-vendored
+
+# VectorDrawables converted from the SVGs by tools/svg_to_vector.py. Their own
+# header says GENERATED -- do not edit. Excluded from stats and collapsed in diffs.
+app/src/main/res/drawable/** linguist-generated
