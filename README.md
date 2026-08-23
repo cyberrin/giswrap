@@ -61,7 +61,6 @@ the Python fetcher maps onto Kotlin, and the known gaps.
 ## Links
 
 - Upstream data — [gismeteo.ru](https://www.gismeteo.ru)
-- Python sibling — [gismeteo-fetcher](https://github.com/cyberrin/gismeteo-fetcher), which carries this code's first 70 commits
 
 ## Contributing
 
