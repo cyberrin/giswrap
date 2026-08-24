@@ -25,7 +25,7 @@ android {
         targetSdk = 37
 
         // Monotonic counter, unrelated to versionName -- it must never decrease.
-        versionCode = 135
+        versionCode = 137
         versionName = "0.1-beta"
     }
 

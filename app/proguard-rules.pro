@@ -13,3 +13,4 @@
 
 # Readable stack traces from release crashes.
 -keepattributes SourceFile,LineNumberTable
+

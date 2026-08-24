@@ -37,6 +37,7 @@
             </intent-filter>
         </activity>
 
+
         <!-- exported="true" is required: the launcher lives in another process
              and must be able to deliver APPWIDGET_UPDATE to this receiver. -->
         <receiver
