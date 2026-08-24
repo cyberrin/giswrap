@@ -8,8 +8,11 @@ directly — no server in between, no account, no API key.
 
 Available in English and Russian, following your system language by default.
 
-<!-- Drop now.png into docs/screenshots/ and this renders. -->
-<img src="docs/screenshots/now.png" alt="GisWrap screenshot" width="40%"/>
+## Screenshots
+| Main screen | Days list | Setting screen (for text) | Widget screenshot |
+|:---:|:---:|:---:|:---:|
+| <img src="docs/screenshots/now-dark.png" alt="Dark main screen screenshot" width="240" /> | <img src="docs/screenshots/days-dark.png" alt="Dark days list screenshot" width="240" /> | <img src="docs/screenshots/settings-dark.png" alt="Dark settings screenshot" width="240" /> | <img src="docs/screenshots/widget-dark.png" alt="Dark widget screenshot" width="240" /> |
+|<img src="docs/screenshots/now-light.png" alt="Light main screen screenshot" width="240" />| <img src="docs/screenshots/days-light.png" alt="Light days list screenshot" width="240" /> | <img src="docs/screenshots/settings-light.png" alt="Light settings screenshot" width="240" /> | <img src="docs/screenshots/widget-light.png" alt="Light widget screenshot" width="240" /> |
 
 ## Key Features
 
@@ -65,4 +68,4 @@ the Python fetcher maps onto Kotlin, and the known gaps.
 ## Contributing
 
 Issues and pull requests are welcome. Run `./gradlew :app:testDebugUnitTest`
-before opening one — 165 tests, no device or network needed.
+before opening one — 162 tests, no device or network needed.
