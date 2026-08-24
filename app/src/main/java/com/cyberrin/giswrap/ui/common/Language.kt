@@ -16,18 +16,18 @@ import java.util.Locale
 // stringResource() resolves against LocalContext's resources and recomposes on
 // LocalConfiguration, so overriding both switches every label with no Activity
 // restart -- and nothing outside this file has to know the setting exists.
+// content() is passed to exactly one CompositionLocalProvider whatever the
+// setting -- SYSTEM provides the unchanged context, which is a no-op. Calling it
+// from a second site instead would move it to a different composition group, and
+// Compose rebuilds a subtree it cannot match rather than re-providing values:
+// that discarded rememberNavController() and crashed on every language change.
 @Composable
 fun AppLanguageProvider(language: AppLanguage, content: @Composable () -> Unit) {
     val context = LocalContext.current
     val configuration = LocalConfiguration.current
 
-    if (language.tag == null) {
-        content()
-        return
-    }
-
-    val localised = remember(language, configuration) {
-        context.withLocale(Locale.forLanguageTag(language.tag))
+    val localised = remember(language, context, configuration) {
+        language.tag?.let { context.withLocale(Locale.forLanguageTag(it)) } ?: context
     }
 
     CompositionLocalProvider(

@@ -98,7 +98,7 @@ tracing and live-literal indirection in. A 2x difference is normal.
 
 ## Testing
 
-    ./gradlew :app:testDebugUnitTest                       # 162 tests, offline
+    ./gradlew :app:testDebugUnitTest                       # 165 tests, offline
     ./gradlew :app:testDebugUnitTest -Pgismeteo.live=true  # +3 against the real site
 
 `SourcesTest` is the one that matters. It runs the Kotlin parsers over pages

@@ -65,4 +65,4 @@ the Python fetcher maps onto Kotlin, and the known gaps.
 ## Contributing
 
 Issues and pull requests are welcome. Run `./gradlew :app:testDebugUnitTest`
-before opening one — 162 tests, no device or network needed.
+before opening one — 165 tests, no device or network needed.

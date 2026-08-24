@@ -1,6 +1,5 @@
 package com.cyberrin.giswrap.ui.theme
 
-import android.content.Context
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.Font
@@ -12,14 +11,13 @@ import androidx.compose.ui.unit.sp
 import com.cyberrin.giswrap.R
 import com.cyberrin.giswrap.domain.model.AppFont
 import com.cyberrin.giswrap.domain.model.TextTuning
-import java.io.File
 
 private val RubikDoodleShadow = FontFamily(Font(R.font.rubik_doodle_shadow))
 
-fun customFontFile(context: Context, name: String): File = File(context.filesDir, name)
-
+// Default, not SansSerif: SansSerif is the sans-serif *alias* and resolves to
+// Roboto, so it ignores a face the user or OEM substituted for the system font.
 fun fontFamilyFor(font: AppFont): FontFamily = when (font) {
-    AppFont.SYSTEM -> FontFamily.SansSerif
+    AppFont.SYSTEM -> FontFamily.Default
     AppFont.SERIF -> FontFamily.Serif
     AppFont.DOODLE -> RubikDoodleShadow
 }
